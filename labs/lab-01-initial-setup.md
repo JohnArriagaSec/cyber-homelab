@@ -61,22 +61,22 @@ result: no result were recieved
 output: 4 packets transmitted, 0 received, 100% packet loss
 
 # troubleshooting performed:
-  verified both systems were on the same subnet
-  disabled Windows Firewall for testing.
-  Confirmed both Vms were using a host-only adapter
-  checked ip addressing on both systems
+  1. verified both systems were on the same subnet
+  2. disabled Windows Firewall for testing.
+  3. Confirmed both Vms were using a host-only adapter
+  4. checked ip addressing on both systems
 
 # Lessons learned
 
-Virtual machines can be connected locally using a host only network
-Network troubleshooting requires verifying ip addresses and connectivity 
-communication may fail even when systems appear to be on the same network
-cybersecurity involves understanding how systems communicate and diagnosing problems
+1. Virtual machines can be connected locally using a host only network
+2. Network troubleshooting requires verifying ip addresses and connectivity 
+3. communication may fail even when systems appear to be on the same network
+4. cybersecurity involves understanding how systems communicate and diagnosing problems
 
 # Next steps
-  investigate why kali cannot reach windows
-  learn how icmp and ping work
-  install wireshark
-  learn basic nmap scanning
-  add an ubuntu vm to the lab
+  1. investigate why kali cannot reach windows
+  2. learn how icmp and ping work
+  3. install wireshark
+  4. learn basic nmap scanning
+  5. add an ubuntu vm to the lab
 
